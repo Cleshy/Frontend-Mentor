@@ -44,9 +44,9 @@ img {
 
 .card-container {
   background-color: var(--clr-white);
-  margin: 2.5rem;
+  margin: 2rem;
   border-radius: 15px;
-  max-width: 270px;
+  max-width: 30rem;
 }
 
 .card {
