@@ -1,0 +1,133 @@
+:root {
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray-500: hsl(0, 0%, 42%);
+  --clr-gray-950: hsl(0, 0%, 7%);
+
+  --clr-body-bg: var(--clr-yellow);
+  --clr-card-bg: var(--clr-white);
+
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.4rem;
+  --font-size-body: 1.6rem;
+  --font-size-large: 2rem;
+  --font-size-largest: 2.4rem;
+
+  --font-body: "Figtree", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-body);
+  background-color: var(--clr-body-bg);
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.card {
+  background-color: var(--clr-card-bg);
+  padding: 2.4rem;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0);
+  color: var(--clr-gray-950);
+  max-width: 384px;
+  width: 100%;
+}
+
+.card__image {
+  border-radius: 10px;
+  height: 20rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.2rem;
+  margin: 2.4rem 0;
+}
+
+.card__tag {
+  background-color: var(--clr-yellow);
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  font-size: var(--font-size-small);
+  font-weight: 800;
+}
+
+.card__publish-date {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+}
+
+.card__title {
+  font-size: var(--font-size-large);
+  font-weight: 800;
+}
+
+.card__title:hover {
+  color: var(--clr-yellow);
+  cursor: pointer;
+}
+
+.card__description {
+  font-size: var(--font-size-medium);
+  font-weight: 500;
+  color: var(--clr-gray-500);
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.card__author-image {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card__author-name {
+  font-weight: 800;
+  font-size: var(--font-size-medium);
+}
+
+@media screen and (min-width: 400px) {
+  .card__tag,
+  .card__publish-date,
+  .card__author-name {
+    font-size: var(--font-size-medium);
+  }
+
+  .card__title {
+    font-size: var(--font-size-largest);
+  }
+
+  .card__description {
+    font-size: var(--font-size-body);
+  }
+}
