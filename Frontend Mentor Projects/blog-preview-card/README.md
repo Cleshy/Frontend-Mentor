@@ -19,8 +19,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Cleshy/Frontend-Mentor/tree/master/Frontend%20Mentor%20Projects/qr-code-component-main)
-- Live Site URL: [QR Code Component](https://cleshy-qr-code.netlify.app/)
+- Solution URL: [Github](https://github.com/Cleshy/Frontend-Mentor/tree/master/Frontend%20Mentor%20Projects/blog-preview-card)
+- Live Site URL: [Blog Preview Card](https://cleshy-blog-preview.netlify.app/)
 
 ## My process
 
