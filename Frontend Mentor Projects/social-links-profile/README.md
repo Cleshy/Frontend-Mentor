@@ -19,8 +19,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Cleshy/Frontend-Mentor/tree/master/Frontend%20Mentor%20Projects/blog-preview-card)
-- Live Site URL: [Blog Preview Card](https://cleshy-blog-preview.netlify.app/)
+- Solution URL: [Github](https://github.com/Cleshy/Frontend-Mentor/tree/master/Frontend%20Mentor%20Projects/social-links-profile)
+- Live Site URL: [Social Links Profile](https://cleshy-social-links-profile.netlify.app/)
 
 ## My process
 
